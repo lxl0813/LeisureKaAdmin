@@ -1,0 +1,33 @@
+[2021-05-11T11:49:24+08:00][sql] CONNECT:[ UseTime:0.010797s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T11:49:24+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.025683s ]
+[2021-05-11T11:49:24+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.006296s ]
+[2021-05-11T12:04:17+08:00][sql] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:04:17+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000735s ]
+[2021-05-11T12:04:17+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000170s ]
+[2021-05-11T12:04:59+08:00][sql] CONNECT:[ UseTime:0.010683s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:04:59+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000914s ]
+[2021-05-11T12:04:59+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000507s ]
+[2021-05-11T12:05:26+08:00][sql] CONNECT:[ UseTime:0.012351s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:05:26+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000835s ]
+[2021-05-11T12:05:26+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000350s ]
+[2021-05-11T12:11:07+08:00][sql] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:11:07+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000878s ]
+[2021-05-11T12:11:07+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000334s ]
+[2021-05-11T12:11:29+08:00][sql] CONNECT:[ UseTime:0.025511s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:11:29+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000938s ]
+[2021-05-11T12:11:29+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000363s ]
+[2021-05-11T12:12:17+08:00][sql] CONNECT:[ UseTime:0.000738s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:12:17+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000819s ]
+[2021-05-11T12:12:17+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000277s ]
+[2021-05-11T12:13:04+08:00][sql] CONNECT:[ UseTime:0.013662s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:13:04+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000810s ]
+[2021-05-11T12:13:04+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000359s ]
+[2021-05-11T12:15:42+08:00][sql] CONNECT:[ UseTime:0.024805s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T12:15:42+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001113s ]
+[2021-05-11T12:15:42+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000445s ]
+[2021-05-11T14:20:19+08:00][sql] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-11T14:20:19+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000581s ]
+[2021-05-11T14:20:19+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000182s ]
+[2021-05-11T14:25:51+08:00][error] [0]模板文件不存在:D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\view\public\header.html[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\vendor\topthink\think-template\src\Template.php:1255]
+[2021-05-11T14:26:30+08:00][error] [0]模板文件不存在:D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\view\public\header.html[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\vendor\topthink\think-template\src\Template.php:1255]
+[2021-05-11T14:37:01+08:00][error] [0]语法错误: unexpected '}'[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\IndexController.php:15]

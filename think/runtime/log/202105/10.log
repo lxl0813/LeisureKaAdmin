@@ -1,0 +1,58 @@
+[2021-05-10T11:57:03+08:00][error] [8]未定义数组索引: system_admin_id[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:50]
+[2021-05-10T17:12:11+08:00][error] [2]json_decode() expects parameter 1 to be string, array given[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:33]
+[2021-05-10T17:12:15+08:00][error] [2]json_decode() expects parameter 1 to be string, array given[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:33]
+[2021-05-10T17:13:09+08:00][error] [0]Argument 1 passed to think\Validate::check() must be of the type array, string given, called in D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php on line 36[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\vendor\topthink\framework\src\think\Validate.php:471]
+[2021-05-10T17:15:13+08:00][error] [2]json_decode() expects parameter 1 to be string, array given[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:33]
+[2021-05-10T17:20:00+08:00][sql] CONNECT:[ UseTime:0.003641s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:20:00+08:00][error] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lxl_leisure_ka.lxlsystem_admin_info' doesn't exist[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\vendor\topthink\think-orm\src\db\PDOConnection.php:795]
+[2021-05-10T17:20:37+08:00][sql] CONNECT:[ UseTime:0.001216s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:20:37+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.008643s ]
+[2021-05-10T17:20:37+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000843s ]
+[2021-05-10T17:20:37+08:00][error] [8]未定义数组索引: system_admin_status[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:42]
+[2021-05-10T17:21:47+08:00][sql] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:21:47+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001561s ]
+[2021-05-10T17:21:47+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000539s ]
+[2021-05-10T17:21:47+08:00][error] [8]未定义数组索引: system_admin_id[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:45]
+[2021-05-10T17:22:21+08:00][sql] CONNECT:[ UseTime:0.021844s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:22:21+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001108s ]
+[2021-05-10T17:22:21+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000519s ]
+[2021-05-10T17:22:21+08:00][error] [8]未定义数组索引: system_admin_id[D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\app\controller\AuthController.php:45]
+[2021-05-10T17:22:49+08:00][sql] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:22:49+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001606s ]
+[2021-05-10T17:22:49+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000716s ]
+[2021-05-10T17:23:14+08:00][sql] CONNECT:[ UseTime:0.023127s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:23:14+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001763s ]
+[2021-05-10T17:23:14+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000646s ]
+[2021-05-10T17:23:48+08:00][sql] CONNECT:[ UseTime:0.020587s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:23:48+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001935s ]
+[2021-05-10T17:23:48+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000803s ]
+[2021-05-10T17:29:31+08:00][sql] CONNECT:[ UseTime:0.001423s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:29:31+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000973s ]
+[2021-05-10T17:29:31+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000415s ]
+[2021-05-10T17:31:12+08:00][sql] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:31:12+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001218s ]
+[2021-05-10T17:31:12+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000586s ]
+[2021-05-10T17:36:59+08:00][sql] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:36:59+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001130s ]
+[2021-05-10T17:36:59+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000514s ]
+[2021-05-10T17:37:36+08:00][sql] CONNECT:[ UseTime:0.001125s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:37:36+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000865s ]
+[2021-05-10T17:37:36+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000511s ]
+[2021-05-10T17:39:17+08:00][sql] CONNECT:[ UseTime:0.021552s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:39:17+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001593s ]
+[2021-05-10T17:39:17+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000575s ]
+[2021-05-10T17:50:56+08:00][sql] CONNECT:[ UseTime:0.001446s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:50:56+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001348s ]
+[2021-05-10T17:50:56+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000500s ]
+[2021-05-10T17:56:07+08:00][sql] CONNECT:[ UseTime:0.001464s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:56:07+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001286s ]
+[2021-05-10T17:56:07+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000568s ]
+[2021-05-10T17:57:52+08:00][sql] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:57:52+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000986s ]
+[2021-05-10T17:57:52+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000625s ]
+[2021-05-10T17:58:08+08:00][sql] CONNECT:[ UseTime:0.001340s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:58:08+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.000992s ]
+[2021-05-10T17:58:08+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000514s ]
+[2021-05-10T17:58:28+08:00][sql] CONNECT:[ UseTime:0.011521s ] mysql:host=127.0.0.1;port=3306;dbname=lxl_leisure_ka;charset=utf8
+[2021-05-10T17:58:28+08:00][sql] SHOW FULL COLUMNS FROM `lxl_system_admin_info` [ RunTime:0.001413s ]
+[2021-05-10T17:58:28+08:00][sql] SELECT * FROM `lxl_system_admin_info` WHERE  `system_admin_account` = 'lxl-123' LIMIT 1 [ RunTime:0.000470s ]

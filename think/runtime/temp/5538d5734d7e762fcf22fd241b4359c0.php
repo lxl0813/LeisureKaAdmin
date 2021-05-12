@@ -1,3 +1,4 @@
+<?php /*a:1:{s:86:"D:\PhpWorkSite\phpstudy_pro\WWW\LeisureKaAdmin\think\view\auth\system_admin_login.html";i:1620709338;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -7,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <meta name="csrf-token" content="{:token()}">
+    <meta name="csrf-token" content="<?php echo token(); ?>">
     <link rel="stylesheet" href="/static/css/font.css">
     <link rel="stylesheet" href="/static/css/login.css">
     <link rel="stylesheet" href="/static/css/xadmin.css">
@@ -44,7 +45,7 @@
                 var form_data   =   JSON.stringify(data.field);
                 $.ajax({
                     type:"POST",
-                    url:"{:url('Auth/system_admin_login_auth')}",
+                    url:"<?php echo url('Auth/system_admin_login_auth'); ?>",
                     data:{
                         form_data:form_data,
                     },
@@ -56,7 +57,7 @@
                         if(result.code == 200){
                             layer.msg(result.message);
                             setTimeout(function () {
-                                window.location.href = "{:url('Index/index')}"
+                                window.location.href = "<?php echo url('Index/index'); ?>"
                             },1000)
                         }else{
                             layer.msg(result.message);

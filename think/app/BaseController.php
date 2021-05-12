@@ -4,7 +4,10 @@ declare (strict_types = 1);
 namespace app;
 
 use think\App;
+use think\exception\HttpResponseException;
 use think\exception\ValidateException;
+use think\facade\Cookie;
+use think\facade\Session;
 use think\Validate;
 
 /**
@@ -48,6 +51,10 @@ abstract class BaseController
 
         // 控制器初始化
         $this->initialize();
+
+        //管理员登录验证
+        if (!Cookie::get('LeisureKa')) throw new HttpResponseException(redirect('Auth/system_admin_login'));
+
     }
 
     // 初始化
